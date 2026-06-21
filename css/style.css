@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/*----------------------------------------
+           基本設定
+------------------------------------------*/
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "游ゴシック体",YuGothic,"游ゴシック","YuGothic",sans-serif;
+}
+/*ヘッダー設定*/
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header_wrapper h1 a{
+    color: black;
+    text-decoration: none;
+}
+.header_nav ul{
+    text-align: right;
+}
+.header_nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+.header_nav li:not(.list1){
+    margin-left: 20px;
+  }
+.header_nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header_nav ul li a:hover{
+    opacity: 0.5;
+}
+.mainvisual {
+    width: 100%;
+    text-align: center;
+}
+.mainvisual img {
+    width: 100%;
+}
+.form {
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.form label{
+    text-align: center;
+}

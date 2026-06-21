@@ -1,0 +1,186 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+/*----------------------------------------
+           基本設定
+------------------------------------------*/
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "游ゴシック体",YuGothic,"游ゴシック","YuGothic",sans-serif;
+    background-color: #f8f3ea;
+}
+/*ヘッダー設定*/
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header_wrapper h1 a{
+    color: black;
+    text-decoration: none;
+    font-family: "Potta One", system-ui;
+}
+.header_nav ul{
+    text-align: right;
+}
+.header_nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+.header_nav li:not(.list1){
+    margin-left: 20px;
+  }
+.header_nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header_nav ul li a:hover{
+    opacity: 0.5;
+}
+.mainvisual {
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    text-align: center;
+}
+.mainvisual img {
+    width: 100%;
+    
+}
+.click {
+    margin-top: 150px;
+    text-align: center;
+}
+.click .seach-text p{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.click-button .button02 {
+    background-color: #fff;
+    border: solid 2px #2f4f4f;
+    color: #2f4f4f;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  .button02:hover {
+    color: #2f4f4f;
+    background-color: #b0e0e6;
+  }
+/*********************
+     seach.html
+*********************/
+.subvisual {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.subvisual img{
+    width: 1040px;
+    text-align: center;
+}
+.main-navigation {
+    width: 100%;
+    margin: auto;
+  }
+  .main-navigation ul {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  .main-navigation ul li {
+    width: 25%;
+    text-align: center;
+  }
+  .main-navigation a {
+    padding: 10px 0;
+    display: block;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    transition: all 0.2s;
+    text-decoration: none;
+  }
+  .main-navigation a:hover {
+    background-color: #9fa09e;
+    color: #fff;
+    transition: all 0.4s;
+  }
+  .subvisual .slider img{
+    height: 600px;
+  }
+  /******************
+      syouyu
+  ******************/
+.ramen {
+    width: 900px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    font-family: 'Arial', sans-serif;
+    margin-left: 20%;
+    margin-bottom: 50px;
+}
+
+.ramen-introduction {
+    display: flex;
+    justify-content: space-evenly;
+}
+.ramen-image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.ramen-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.store-name {
+    display: flex;
+}
+.store-name img {
+    width: 25px;
+}
+.store-name h2{
+    font-size: 25px;
+}
+.store-info div {
+    display: flex;
+    align-items: center; /* アイコンとテキストを縦揃え */
+    gap: 8px; /* アイコンとテキストの間に余白を入れる */
+}
+.store-info {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.store-info i {
+    font-size: 18px; /* アイコンのサイズ */
+    color: #555; /* アイコンの色 */
+}
+.info-text {
+    font-size: 22px;
+    font-weight: 600;   
+    color: #555;
+}
+.btn--orange, a.btn--orange {
+    color: #fff;
+    background-color: #eb6100;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+.btn--orange:hover, a.btn--orange:hover {
+    color: #fff;
+    background: #f56500;
+}
